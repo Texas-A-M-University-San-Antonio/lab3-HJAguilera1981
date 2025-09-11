@@ -1,6 +1,6 @@
 /**
- * Name: [Enter Your Name Here]
- * Date: [Enter Today's Date]
+ * Name: [Herman Aguilera]
+ * Date: [10 Sep 2025]
 * Purpose: InClass 3 - 
 * [Write a description about this InClass 3 program]
  */
@@ -11,6 +11,7 @@ public class InClass3_FirstName_LastName
 {
     public static void main(String[] args) 
     {
+        Scanner input = new Scanner(Sytem.in);
         // In-Class 3 Example:
         // Step 1: Prompt the user to enter the length of the side of a cube.
         // Step 2: Read the user's input and store it in a variable.
