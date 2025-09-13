@@ -1,12 +1,30 @@
 /**
  * Name: [Herman Aguilera]
  * Date: [13 Sep 2025]
- * Purpose: Lab 2 - Compound Interest Calculation
+ * Purpose: Lab 3 - Compound Interest Calculation
  *
  *
  */
-import java.util.Scanner;
- // Step 3a
+import java.util.Scanner; // Import Scanner to read user input
 
 public class Lab 3_Herman InClass3_Herman_Aguilera
-{} 
+{
+
+    public static void main(Sting[] args)
+    {
+        // Create scanner object to read input from user
+        Scanner input = new Scanner(System.in);
+
+        //Declare variables
+        double initialValue; // Initial value of the home
+        int years;           // Number of elapsed years
+        double interestRate; // Interest rate (as a percenatge from user)
+        double finalValue;   // Final value of the home after compound interest
+
+        // Prompt user to enter the initial value of the home
+        System.out.print("Please enter initial value of the home: ");
+        initialValue = input.nextDouble(); // Read a double
+
+        
+
+
