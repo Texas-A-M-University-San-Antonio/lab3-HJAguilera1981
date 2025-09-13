@@ -10,7 +10,7 @@ import java.util.Scanner; //Import the Scanner class
 // Inside main method;
 Scanner input = new Scanner(system.in); // Declare a Scanner object
 
-public class InClass3_Herman_Aguilera
+public static class InClass3_Herman_Aguilera
 {
     public static void main(String[] args) 
     {
