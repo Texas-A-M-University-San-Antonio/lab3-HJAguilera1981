@@ -22,8 +22,31 @@ public class Lab 3_Herman InClass3_Herman_Aguilera
         double finalValue;   // Final value of the home after compound interest
 
         // Prompt user to enter the initial value of the home
-        System.out.print("Please enter initial value of the home: ");
+        System.out.print("Please enter initial value of the home: 200000 ");
         initialValue = input.nextDouble(); // Read a double
+        
+        // Prompt user to enter the number of elapsed years
+        System.out.print("Please enter the number of elapsed years: 25 ");
+        years = input.nextInt(); // Read the integer
+
+        // Prompt user to enter the interest rate
+        System.out.print("Please enter the interest rate: 6 ");
+        interestRate = input.nextDouble(); // Read a double
+
+        // Convert interest rate from percentage to decimal
+        interestRate = interestRate / 100;
+
+        // Calculate final value using compound interest formula: A = P * (1 + r)^t
+        finalValue  = initialValue * Math.pow((1 + interestRate), years);
+
+        // Display the final value of the home (formatted to 2 decimal places)
+        System.out.printf("The final value of the home is: 858488.46", finalValue);
+
+        // Close the Scanner object
+        input.close();
+    }
+
+
 
         
 
